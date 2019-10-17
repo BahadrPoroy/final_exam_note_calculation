@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float vize,fin;
+    float g_not=60;
+    printf("vize:");
+    scanf("%f",&vize);
+    if (vize<0)
+    {
+        printf("notunuz negatif olamaz");
+    }
+    else{
+    fin = ((g_not-vize*0.4)/0.6);
+    printf("Almaniz gereken final notu:" "%.2f",fin);
+}
+return 0;
+}
